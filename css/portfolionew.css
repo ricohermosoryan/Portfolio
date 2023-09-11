@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+article {
+    padding-top: 55px;
+    top: 54px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+/*nav div class*/
+
+label img {
+    border-radius: 50%;
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+}
+
+.active:hover {
+    text-decoration: underline;
+    color: rgb(155, 217, 228);
+}
+
+.hidden {
+    position: fixed;
+    top: 53px;
+    width: 100%;
+}
+
+.hide {
+    text-decoration: none;
+    color: white;
+}
+
+.hide:hover {
+    text-decoration: underline;
+    color: rgb(155, 217, 228);
+}
+
+.ham {
+    display: none;
+    
+}
+
+/* Article Div Class*/
+
+/*Float*/
+
+.s-icon {
+    position: fixed;
+    top: 350px;
+    background-color: white;
+    width: 50px;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.facebook:hover {
+    background-color: rgba(155, 217, 228, 0.3);
+    transform: scale(1.1);
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.instagram:hover {
+    background-color: rgba(155, 217, 228, 0.3);
+    transform: scale(1.1);
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.twitter:hover {
+    background-color: rgba(155, 217, 228, 0.3);
+    transform: scale(1.1);
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.youtube:hover {
+    background-color: rgba(155, 217, 228, 0.3);
+    transform: scale(1.1);
+}
+
+.git {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.git:hover {
+    background-color: rgba(155, 217, 228, 0.3);
+    transform: scale(1.1);
+}
+
+/*Welcome*/
+
+.r-1 {
+    background: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1380&t=st=1694332294~exp=1694332894~hmac=38aef609a82523e4021025a636c8710658b59a8e0cae2ff7e5bdf0ca75938458);
+    background-size: cover;
+    height: 900px;
+}
+
+/*About*/
+
+.r-2 {
+    background-color: #f3f3f3;
+    height: 600px;
+}
+
+.wel {
+    width: 900px;
+}
+
+.about {
+    width: 900px;
+    height: 500px;
+}
+
+/*Portfolio*/
+
+.r-3 {
+    background-color: #ffffff;
+    height: 900px;
+}
+
+.port {
+    width: 900px;
+    height: 600px;
+}
+
+
+/*Contact*/
+
+.r-4 {
+    background: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1380&t=st=1694332294~exp=1694332894~hmac=38aef609a82523e4021025a636c8710658b59a8e0cae2ff7e5bdf0ca75938458);
+    background-size: cover;
+    height: 800px;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 568px){
+     .active {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 569px){
+    .hidden {
+        display: none;
+    }
+}

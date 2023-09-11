@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Ricohermoso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portfolionew.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container d-flex justify-content-between ">
+            <label class="icon"><img src="images/iconname.JPG" alt="icon" width="40px" height="40px" class="mt-2"></label>
+            <ul class="d-flex list-unstyled gap-3 pt-3">
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#port" class="active">Portfolio</a></li>
+                <li><a href="#contact" class="active">Contact</a></li>
+            </ul>
+            <button class="ham" data-bs-toggle="collapse" data-bs-target="#hidden"><i class="ri-menu-line ri-2x"></i></button>
+        </div>
+    </nav>
+    <div class="hidden collapse bg-dark " id="hidden">
+        <ul class="list-unstyled">
+            <li class="mb-2 pt-2"><a href="#Home" class="hide">Home</a></li>
+            <li class="mb-2 mt-2"><a href="#about" class="hide">About</a></li>
+            <li class="mb-2 mt-2"><a href="#port" class="hide">Portfolio</a></li>
+            <li class="mb-2 mt-2"><a href="#contact" class="hide">Contact</a></li>
+        </ul>
+    </div>
+    <article>
+      <div class="s-icon rounded-end-3 ps-2 pe-2 shadow-lg pt-2 pb-2">
+        <div class="facebook">
+            <i class="ri-facebook-fill ri-2x"></i>
+        </div>
+        <div class="instagram">
+            <i class="ri-instagram-fill ri-2x"></i>
+        </div>
+        <div class="twitter">
+            <i class="ri-twitter-fill ri-2x"></i>
+        </div>
+        <div class="youtube">
+            <i class="ri-youtube-fill ri-2x"></i>
+        </div>
+        <div class="git">
+          <i class="ri-github-fill ri-2x"></i>
+      </div>
+    </div>
+        <div class="container-fluid">
+            <div class="r-1 row align-items-center justify-content-center" id="Home">
+               <div class="wel text-center">
+                    <span><h1 class="display-4 fw-bolder ">WELCOME</h1></span>
+                    <span><p class="fs-4 mt-5">I'm Ryan Ricohermoso, a versatile Full Stack Developer with a passion for crafting innovative web solutions. With a strong foundation in both front-end and back-end technologies, I bring a holistic approach to web development.</p></span>
+               </div>
+            </div>
+            <div class="r-2 row align-items-center justify-content-center" id="about">
+                <div class="about text-center">
+                    <span><h2 class="display-6 fw-medium pt-3">ABOUT ME</h2></span><br>
+                    <span><p class="fs-4 pt-2">Info</p></span>
+                    <div class="d-flex justify-content-between">
+                        <span><h3 class="fw-semibold">My Background</h3>
+                        <p>Info</p></span>
+                        
+                        <span><h3 class="fw-semibold">Skills and Experties</h3><p>Info</p></span>
+                    </div>
+                </div>
+            </div>
+            <div class="r-3 row align-items-center justify-content-center" id="port">
+                <div class="port text-center">
+                    <span><h2 class="display-6 fw-medium">PORTFOLIO</h2></span><br>
+                    <span><p class="fs-4 pt-2">Info</p></span><br>
+                    <div id="auto" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#auto" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#auto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#auto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-psd/minimalist-scrapbook-web-design-template_23-2149197312.jpg?w=1380&t=st=1694323707~exp=1694324307~hmac=bad5c08b1ac8c503b3814cffae7b78528de1ba96d31e39c1c5b37ade66cdc314" class=" w-100" alt="image1" height="400px " position="absolute">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-psd/landing-page-template-productivity-life-balance_23-2149302657.jpg?w=1380&t=st=1694323732~exp=1694324332~hmac=3d1c6333a7f98ccd3c2bb81b9984e91c42664b4928df2c9d45fbe0b0216101a4" class="w-100" alt="image2" height="400px">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-psd/bank-design-template-web_23-2149197279.jpg?w=1380&t=st=1694323745~exp=1694324345~hmac=a366664f9cd113b2aa1d18a329705f72040d1379aaa2a4910fbce68201c64a98" class=" w-100" alt="image3" height="400px">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#auto" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#auto" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <div class="r-4 row  justify-content-center" id="contact">
+              <div class="cont text-center mt-5">
+                <span><h2 class="display-6 fw-medium">Contact</h2></span><br>
+                    <span><p class="fs-4 pt-2">Info</p></span><br>
+              </div>
+            </div>
+        </div>
+    </article>
+    <footer class="d-flex align-items-center justify-content-center">
+      © Copyright 2023. Made by Ryan Ricohermoso
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</html>
