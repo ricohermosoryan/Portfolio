@@ -167,7 +167,16 @@ label img {
 .r-4 {
     background: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1380&t=st=1694332294~exp=1694332894~hmac=38aef609a82523e4021025a636c8710658b59a8e0cae2ff7e5bdf0ca75938458);
     background-size: cover;
-    height: 800px;
+}
+
+.int-nep {
+    width: 450px;
+    height: 50px;
+}
+
+.text-area {
+    width: 450px;
+    height: 200px;
 }
 
 /*Media Query*/
